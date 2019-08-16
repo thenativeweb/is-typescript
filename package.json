@@ -1,6 +1,6 @@
 {
   "name": "is-typescript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "is-typescript checks whether a package is built using TypeScript.",
   "contributors": [
     {
