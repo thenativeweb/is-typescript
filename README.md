@@ -4,13 +4,13 @@ is-typescript checks whether a package is built using TypeScript.
 
 ## Status
 
-| Category | Status |
-|-|-|
-| Version | [![npm](https://img.shields.io/npm/v/is-typescript)](https://www.npmjs.com/package/is-typescript) |
-| Dependencies | ![David](https://img.shields.io/david/thenativeweb/is-typescript) |
-| Dev dependencies | ![David](https://img.shields.io/david/dev/thenativeweb/is-typescript) |
-| Build | [![CircleCI](https://img.shields.io/circleci/build/github/thenativeweb/is-typescript)](https://circleci.com/gh/thenativeweb/is-typescript/tree/master) |
-| License | ![GitHub](https://img.shields.io/github/license/thenativeweb/is-typescript) |
+| Category         | Status                                                                                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Version          | [![npm](https://img.shields.io/npm/v/is-typescript)](https://www.npmjs.com/package/is-typescript)                                                      |
+| Dependencies     | ![David](https://img.shields.io/david/thenativeweb/is-typescript)                                                                                      |
+| Dev dependencies | ![David](https://img.shields.io/david/dev/thenativeweb/is-typescript)                                                                                  |
+| Build            | [![CircleCI](https://img.shields.io/circleci/build/github/thenativeweb/is-typescript)](https://circleci.com/gh/thenativeweb/is-typescript/tree/master) |
+| License          | ![GitHub](https://img.shields.io/github/license/thenativeweb/is-typescript)                                                                            |
 
 ## Installation
 
