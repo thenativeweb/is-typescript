@@ -29,7 +29,7 @@ const isTypeScript = require('is-typescript');
 To check whether a package is built using TypeScript, call the `isTypeScript` function and provide the root directory of the package as parameter:
 
 ```javascript
-console.log(await isTypeScript({ directory: '/...' }));
+console.log(isTypeScript({ directory: '/...' }));
 // => true
 ```
 

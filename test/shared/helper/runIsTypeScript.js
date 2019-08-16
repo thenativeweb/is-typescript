@@ -3,5 +3,5 @@
 const isTypeScript = require('is-typescript');
 
 /* eslint-disable no-console */
-isTypeScript({ directory: __dirname }).then(console.log);
+console.log(isTypeScript({ directory: __dirname }));
 /* eslint-enable no-console */
