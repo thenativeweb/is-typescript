@@ -17,7 +17,7 @@
   "devDependencies": {
     "assertthat": "3.2.0",
     "isolated": "1.0.1",
-    "roboter": "6.1.0",
+    "roboter": "7.0.1",
     "shelljs": "0.8.3"
   },
   "repository": {
