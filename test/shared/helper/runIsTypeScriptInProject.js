@@ -2,8 +2,8 @@
 
 const path = require('path');
 
-const isolated = require('isolated');
-const shell = require('shelljs');
+const isolated = require('isolated').default,
+      shell = require('shelljs');
 
 const throwIfCodeIsNonZero = function ({ child }) {
   if (!child) {

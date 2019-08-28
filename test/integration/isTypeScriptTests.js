@@ -1,7 +1,8 @@
 'use strict';
 
-const assert = require('assertthat').default;
 const path = require('path');
+
+const assert = require('assertthat').default;
 
 const runIsTypeScriptInProject = require('../shared/helper/runIsTypeScriptInProject');
 
