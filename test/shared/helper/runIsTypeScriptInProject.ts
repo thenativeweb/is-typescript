@@ -1,11 +1,10 @@
-'use strict';
+import isolated from 'isolated';
+import path from 'path';
+import shell, { ShellString } from 'shelljs';
 
-const path = require('path');
-
-const isolated = require('isolated').default,
-      shell = require('shelljs');
-
-const throwIfCodeIsNonZero = function ({ child }) {
+const throwIfCodeIsNonZero = function ({ child }: {
+  child: ShellString;
+}): void {
   if (!child) {
     throw new Error('Child is missing.');
   }
@@ -23,17 +22,13 @@ const throwIfCodeIsNonZero = function ({ child }) {
  * Returns the child resulting from executing the script.
  * Run tests on the child.
  */
-const runIsTypeScriptInProject = async function ({ directory }) {
-  if (!directory) {
-    throw new Error('Directory is missing.');
-  }
-
+const runIsTypeScriptInProject = async function ({ directory }: {
+  directory: string;
+}): Promise<ShellString> {
   const tempDirectory = await isolated();
   const isTypeScriptPackagePath = path.join(__dirname, '..', '..', '..');
 
-  /* eslint-disable global-require */
-  const isTypeScriptPackageJson = require(path.join(__dirname, '..', '..', '..', 'package.json'));
-  /* eslint-enable global-require */
+  const isTypeScriptPackageJson = await import(path.join(__dirname, '..', '..', '..', 'package.json'));
 
   const testFilePath = path.join(__dirname, 'runIsTypeScript.js');
 
@@ -42,6 +37,12 @@ const runIsTypeScriptInProject = async function ({ directory }) {
   throwIfCodeIsNonZero({
     child: shell.exec(`npm install`, {
       cwd: tempDirectory
+    })
+  });
+
+  throwIfCodeIsNonZero({
+    child: shell.exec(`npx roboter precompile`, {
+      cwd: isTypeScriptPackagePath
     })
   });
 
@@ -69,4 +70,4 @@ const runIsTypeScriptInProject = async function ({ directory }) {
   return test;
 };
 
-module.exports = runIsTypeScriptInProject;
+export default runIsTypeScriptInProject;

@@ -1,7 +1,7 @@
 'use strict';
 
-const isTypeScript = require('is-typescript');
+const isTypeScript = require('is-typescript').default;
 
 /* eslint-disable no-console */
-console.log(isTypeScript({ directory: __dirname }));
+isTypeScript({ directory: __dirname }).then(console.log);
 /* eslint-enable no-console */

@@ -12,9 +12,11 @@
       "email": "hannes.leutloff@thenativeweb.io"
     }
   ],
-  "main": "lib/isTypeScript.js",
+  "main": "build/lib/isTypeScript.js",
+  "types": "build/lib/isTypeScript.d.ts",
   "dependencies": {},
   "devDependencies": {
+    "@types/shelljs": "0.8.5",
     "assertthat": "4.0.1",
     "isolated": "2.0.0",
     "roboter": "7.1.1",
