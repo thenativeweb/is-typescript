@@ -3,7 +3,7 @@ import path from 'path';
 import runIsTypeScriptInProject from '../shared/helper/runIsTypeScriptInProject';
 
 suite('isTypeScript', (): void => {
-  test('returns true for a project with typescript installed and a tsconfig.json.', async function (): Promise<void> {
+  test('returns true for a project with TypeScript installed and a tsconfig.json.', async function (): Promise<void> {
     this.timeout(30 * 1000);
 
     const { stdout } = await runIsTypeScriptInProject({ directory: path.join(__dirname, '..', 'shared', 'projects', 'withTsAndTsConfig') });
@@ -11,7 +11,7 @@ suite('isTypeScript', (): void => {
     assert.that(stdout.trim()).is.equalTo('true');
   });
 
-  test('returns false for a project with a tsconfig.json but no typescript.', async function (): Promise<void> {
+  test('returns false for a project with a tsconfig.json, but no TypeScript.', async function (): Promise<void> {
     this.timeout(30 * 1000);
 
     const { stdout } = await runIsTypeScriptInProject({ directory: path.join(__dirname, '..', 'shared', 'projects', 'withTsConfigWithoutTs') });
@@ -19,7 +19,7 @@ suite('isTypeScript', (): void => {
     assert.that(stdout.trim()).is.equalTo('false');
   });
 
-  test('returns false for a project with typescript but without a tsconfig.json.', async function (): Promise<void> {
+  test('returns false for a project with TypeScript, but without a tsconfig.json.', async function (): Promise<void> {
     this.timeout(30 * 1000);
 
     const { stdout } = await runIsTypeScriptInProject({ directory: path.join(__dirname, '..', 'shared', 'projects', 'withTsWithoutTsConfig') });
@@ -27,7 +27,7 @@ suite('isTypeScript', (): void => {
     assert.that(stdout.trim()).is.equalTo('false');
   });
 
-  test('returns true for a project with typescript and a tsconfig.json.', async function (): Promise<void> {
+  test('returns true for a project with TypeScript and a tsconfig.json.', async function (): Promise<void> {
     this.timeout(30 * 1000);
 
     const { stdout } = await runIsTypeScriptInProject({ directory: path.join(__dirname, '..', 'shared', 'projects', 'withoutTsAndTsConfig') });
