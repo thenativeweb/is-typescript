@@ -14,14 +14,10 @@ const throwIfCodeIsNonZero = function ({ child }: {
   }
 };
 
-/**
- * Run the `runIsTypeScript.js` file for a given project path.
- * This copies the target project to a temporary location, installes potentially
- * existing node modules, installs is-typescript, copies the said script and
- * executes it.
- * Returns the child resulting from executing the script.
- * Run tests on the child.
- */
+// We want to run runIsTypeScript.js for a project in the given directory. For
+// that, first copy the project to a temporary location, install Node.js modules
+// if needed, install is-typescript, copy the runIsTypeScript.js file, and
+// finally execute it.
 const runIsTypeScriptInProject = async function ({ directory }: {
   directory: string;
 }): Promise<ShellString> {
