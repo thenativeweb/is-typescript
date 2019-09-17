@@ -41,7 +41,7 @@ const runIsTypeScriptInProject = async function ({ directory }: {
   });
 
   throwIfCodeIsNonZero({
-    child: shell.exec(`npx roboter precompile`, {
+    child: shell.exec(`npx roboter build`, {
       cwd: isTypeScriptPackagePath
     })
   });
