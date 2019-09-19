@@ -19,7 +19,7 @@
     "@types/shelljs": "0.8.5",
     "assertthat": "4.0.2",
     "isolated": "2.0.1",
-    "roboter": "7.4.1",
+    "roboter": "7.5.0",
     "shelljs": "0.8.3"
   },
   "repository": {
