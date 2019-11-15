@@ -1,6 +1,6 @@
-import assert from 'assertthat';
+import { assert } from 'assertthat';
 import path from 'path';
-import runIsTypeScriptInProject from '../shared/helper/runIsTypeScriptInProject';
+import { runIsTypeScriptInProject } from '../shared/helper/runIsTypeScriptInProject';
 
 suite('isTypeScript', (): void => {
   test('returns true for a project with TypeScript installed and a tsconfig.json.', async function (): Promise<void> {

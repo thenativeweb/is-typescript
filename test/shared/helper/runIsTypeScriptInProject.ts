@@ -1,4 +1,4 @@
-import isolated from 'isolated';
+import { isolated } from 'isolated';
 import path from 'path';
 import shell, { ShellString } from 'shelljs';
 
@@ -66,4 +66,4 @@ const runIsTypeScriptInProject = async function ({ directory }: {
   return test;
 };
 
-export default runIsTypeScriptInProject;
+export { runIsTypeScriptInProject };

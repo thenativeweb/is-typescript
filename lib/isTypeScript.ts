@@ -20,4 +20,4 @@ const isTypeScript = async function ({ directory }: {
   }
 };
 
-export default isTypeScript;
+export { isTypeScript };

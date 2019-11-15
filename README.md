@@ -23,13 +23,13 @@ $ npm install is-typescript
 First you need to integrate is-typescript into your application:
 
 ```javascript
-const isTypeScript = require('is-typescript').default;
+const { isTypeScript } = require('is-typescript');
 ```
 
 If you use TypeScript, use the following code instead:
 
 ```typescript
-import isTypeScript from 'is-typescript';
+import { isTypeScript } from 'is-typescript';
 ```
 
 To check whether a package is built using TypeScript, call the `isTypeScript` function and provide the root directory of the package as parameter:

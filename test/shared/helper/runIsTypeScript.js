@@ -1,6 +1,6 @@
 'use strict';
 
-const isTypeScript = require('is-typescript').default;
+const { isTypeScript } = require('is-typescript');
 
 /* eslint-disable no-console */
 (async function () {
