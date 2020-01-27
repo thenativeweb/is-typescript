@@ -20,7 +20,7 @@
     "assertthat": "5.1.0",
     "isolated": "3.0.0",
     "roboter": "11.0.6",
-    "semantic-release-configuration": "1.0.12",
+    "semantic-release-configuration": "1.0.13",
     "shelljs": "0.8.3"
   },
   "repository": {
