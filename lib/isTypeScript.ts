@@ -12,8 +12,6 @@ const isTypeScript = async function ({ directory }: {
   try {
     await access(tsConfigPath, fs.constants.R_OK);
 
-    await import('typescript');
-
     return true;
   } catch {
     return false;

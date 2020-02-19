@@ -39,7 +39,7 @@ console.log(await isTypeScript({ directory: '/...' }));
 // => true
 ```
 
-The package verifies whether the npm package `typescript` is installed, and whether a `tsconfig.json` file exists at the given root directory.
+The package verifies whether a `tsconfig.json` file exists at the given root directory.
 
 ## Running the build
 
