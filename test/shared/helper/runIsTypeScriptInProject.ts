@@ -5,10 +5,6 @@ import shell, { ShellString } from 'shelljs';
 const throwIfCodeIsNonZero = function ({ child }: {
   child: ShellString;
 }): void {
-  if (!child) {
-    throw new Error('Child is missing.');
-  }
-
   if (child.code !== 0) {
     throw new Error(`Child process exited with error code ${child.code}.`);
   }
