@@ -41,9 +41,9 @@ console.log(await isTypeScript({ directory: '/...' }));
 
 The package verifies whether the npm package `typescript` is installed, and whether a `tsconfig.json` file exists at the given root directory.
 
-## Running the build
+## Running quality assurance
 
-To build this module use [roboter](https://www.npmjs.com/package/roboter).
+To run quality assurance for this module use [roboter](https://www.npmjs.com/package/roboter):
 
 ```shell
 $ npx roboter
