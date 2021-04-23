@@ -19,7 +19,7 @@
     "@types/shelljs": "0.8.8",
     "assertthat": "5.2.8",
     "isolated": "3.0.16",
-    "roboter": "11.6.38",
+    "roboter": "11.6.39",
     "semantic-release-configuration": "2.0.0",
     "shelljs": "0.8.4"
   },
