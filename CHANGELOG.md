@@ -1,3 +1,10 @@
+## [4.0.3](https://github.com/thenativeweb/is-typescript/compare/4.0.2...4.0.3) (2021-05-11)
+
+
+### Bug Fixes
+
+* bump hosted-git-info from 2.8.8 to 2.8.9 ([#318](https://github.com/thenativeweb/is-typescript/issues/318)) ([c39c7ad](https://github.com/thenativeweb/is-typescript/commit/c39c7ad59e146879d60614ad65d9917abc1e73bf))
+
 ## [4.0.2](https://github.com/thenativeweb/is-typescript/compare/4.0.1...4.0.2) (2021-03-25)
 
 
