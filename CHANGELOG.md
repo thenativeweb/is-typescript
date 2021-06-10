@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/thenativeweb/is-typescript/compare/4.0.3...4.0.4) (2021-06-10)
+
+
+### Bug Fixes
+
+* bump glob-parent from 5.1.1 to 5.1.2 ([#330](https://github.com/thenativeweb/is-typescript/issues/330)) ([4e56c73](https://github.com/thenativeweb/is-typescript/commit/4e56c73dec9860df379b5e06d800c2bf4ce81f87))
+
 ## [4.0.3](https://github.com/thenativeweb/is-typescript/compare/4.0.2...4.0.3) (2021-05-11)
 
 
