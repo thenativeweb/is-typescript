@@ -1,3 +1,10 @@
+## [4.0.5](https://github.com/thenativeweb/is-typescript/compare/4.0.4...4.0.5) (2021-06-10)
+
+
+### Bug Fixes
+
+* bump trim-newlines from 3.0.0 to 3.0.1 ([#329](https://github.com/thenativeweb/is-typescript/issues/329)) ([1cd0b77](https://github.com/thenativeweb/is-typescript/commit/1cd0b7745a46f96271f41485eb50fecb023d7bf4))
+
 ## [4.0.4](https://github.com/thenativeweb/is-typescript/compare/4.0.3...4.0.4) (2021-06-10)
 
 
