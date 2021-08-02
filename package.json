@@ -17,7 +17,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/shelljs": "0.8.9",
-    "assertthat": "6.3.9",
+    "assertthat": "6.3.11",
     "isolated": "3.0.23",
     "roboter": "11.7.8",
     "semantic-release-configuration": "2.0.5",
