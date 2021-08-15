@@ -1,3 +1,10 @@
+## [4.0.6](https://github.com/thenativeweb/is-typescript/compare/4.0.5...4.0.6) (2021-08-15)
+
+
+### Bug Fixes
+
+* bump path-parse from 1.0.6 to 1.0.7 ([#346](https://github.com/thenativeweb/is-typescript/issues/346)) ([3bf584a](https://github.com/thenativeweb/is-typescript/commit/3bf584a91f1b599e0410725c2e9346eaf84f2e4c))
+
 ## [4.0.5](https://github.com/thenativeweb/is-typescript/compare/4.0.4...4.0.5) (2021-06-10)
 
 
