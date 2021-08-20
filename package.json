@@ -4,14 +4,23 @@
   "description": "is-typescript checks whether a package is built using TypeScript.",
   "contributors": [
     {
+      "name": "Alexander Kampf",
+      "email": "alexander.kampf@thenativeweb.io"
+    },
+    {
       "name": "Golo Roden",
       "email": "golo.roden@thenativeweb.io"
     },
     {
       "name": "Hannes Leutloff",
       "email": "hannes.leutloff@thenativeweb.io"
+    },
+    {
+      "name": "Noah Hummel",
+      "email": "noah.hummel@thenativeweb.io"
     }
   ],
+  "private": false,
   "main": "build/lib/isTypeScript.js",
   "types": "build/lib/isTypeScript.d.ts",
   "dependencies": {},
@@ -19,10 +28,11 @@
     "@types/shelljs": "0.8.9",
     "assertthat": "6.3.13",
     "isolated": "3.0.23",
-    "roboter": "12.1.1",
+    "roboter": "12.1.2",
     "semantic-release-configuration": "2.0.5",
     "shelljs": "0.8.4"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/thenativeweb/is-typescript.git"
