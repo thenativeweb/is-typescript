@@ -1,3 +1,10 @@
+## [4.0.7](https://github.com/thenativeweb/is-typescript/compare/4.0.6...4.0.7) (2022-04-11)
+
+
+### Bug Fixes
+
+* bump minimist from 1.2.5 to 1.2.6 ([#369](https://github.com/thenativeweb/is-typescript/issues/369)) ([6c94333](https://github.com/thenativeweb/is-typescript/commit/6c94333368b70162e25ad7dba40763d55aa6c2f5))
+
 ## [4.0.6](https://github.com/thenativeweb/is-typescript/compare/4.0.5...4.0.6) (2021-08-15)
 
 
