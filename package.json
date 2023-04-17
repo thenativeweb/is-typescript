@@ -25,7 +25,7 @@
   "types": "build/lib/isTypeScript.d.ts",
   "dependencies": {},
   "devDependencies": {
-    "@types/shelljs": "0.8.11",
+    "@types/shelljs": "0.8.12",
     "assertthat": "6.5.2",
     "isolated": "3.0.25",
     "roboter": "13.2.1",
